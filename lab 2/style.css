@@ -1,0 +1,104 @@
+
+body {
+    background-color: #122b2f;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333333;
+    line-height: 1.8;
+
+}
+
+
+.container {
+    background-color: #ececec;
+    width: 78%;
+    max-width: 1200px;
+    padding: 40px 60px;
+    border-radius: 12px;
+    margin: 0 auto;
+    flex: 1; /* занимает всё доступное пространство */
+}
+
+header {
+    padding: 20px 0px;
+    padding-left: 200px;
+}
+/* Заголовки */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.subheading {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color: darkgreen;
+    text-indent: 10px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    font-style: italic;
+    font-size: 16px;
+    padding: 12px 15px;
+}
+
+#facts {
+    background-color: #ffe8ca;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.image-gallery {
+    margin-bottom: 30px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+    max-width: 30%;
+    border: 3px solid #ababab;
+    border-radius: 6px;
+}
+
+a.link-button {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: darkred;
+    color: skyblue;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.link-button:hover {
+    background-color: #380000;
+    color: #d9d9d9;
+}
+
+footer {
+    text-align: center;
+    color: darkgray;
+    font-size: 10px;
+
+}
